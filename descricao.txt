@@ -1,0 +1,24 @@
+Descrição do Exercício:
+Desenvolver um aplicativo de lista de tarefas (To-Do) em React Native que permita ao usuário:
+
+    Adicionar Tarefas: Um input para o usuário digitar a tarefa e um botão para adicioná-la à lista.
+    Marcar como Concluída: Tarefas podem ser marcadas como concluídas ou pendentes.
+    Excluir Tarefas: Tarefas podem ser removidas da lista.
+    Persistir Dados: Usar AsyncStorage para salvar e carregar tarefas localmente.
+
+Requisitos Técnicos:
+
+    Utilize a Context API para gerenciar o estado global da lista de tarefas.
+    Utilize Hooks como useState e useEffect para controle de estado e carregamento de dados.
+    Configure um estilo básico com componentes do React Native, como FlatList, TextInput, TouchableOpacity, etc.
+    Use o AsyncStorage para salvar as tarefas localmente e restaurar quando o aplicativo for reaberto.
+
+Entrega:
+
+    Suba o projeto no GitHub pessoal, lembrando de excluir a pasta node_modules do repositório.
+    Cole o link do repositório no AVA para a entrega.
+
+Extras (opcional):
+
+    Adicionar uma barra de filtros para exibir todas as tarefas, somente as concluídas ou somente as pendentes.
+    Adicionar uma animação simples ao marcar uma tarefa como concluída usando a biblioteca React Native Reanimated.
